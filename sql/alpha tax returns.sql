@@ -1,0 +1,4 @@
+SELECT TOP 1000 
+	BO_balance, AMENDED_FLAG, *
+     FROM [PRAXIS_ALPHA].[dbo].[ALPHA_BO_QUARTERLY_PAYMENT_HISTORY]
+     WHERE register_number = '98760' order by QUARTER_ENDING_DATE desc

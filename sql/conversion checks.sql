@@ -1,0 +1,2 @@
+exec conversion.AlphaTablesTruncate
+exec conversion.AlphaTruncateBtlsTargetTables
